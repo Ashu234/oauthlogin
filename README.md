@@ -19,6 +19,8 @@ After running the application paste http://localhost:8080/h2-console/. on your b
 Visit Swagger to read API documentation:
 After runninng the application visit http://localhost:8080/swagger-ui.html.
 
+** You need to first test  login Login before testing User Session API to get some results ***
+
 Starting the Project:
 
 1. Intellij Idea or any IDE.
@@ -62,6 +64,8 @@ Starting the Project:
    3.2 Using Terminal
    
          3.2.1 open terminal and paste curl  -H "Content-Type: application/json"  -d '{"email":"edwin@cerebri.com", "password":"jbcv42016@@%$JGT09"}'  http://localhost:8080/login/
+
+         3.2.2 To Test User Sessions paste - curl  -H "Content-Type: application/json"  -d '{"fromDate":"2021-01-31", "toDate":"2021-02-01"}'  http://localhost:8080/date/range/
        
        
        
