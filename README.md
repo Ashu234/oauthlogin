@@ -27,9 +27,9 @@ Starting the Project:
    
    1.1 Open the project. Select pom.xml file and hit open.
    
-   1.2 Find OauthloginApplication.java and run the file as java main class.
+   1.2 Find com/oauth/login/OauthloginApplication.java and run the file as java main class.
    
-2. From Terminal.
+2. Or From Terminal.
    
    2.1 You need maven installed on your system. To check open terminal and type "mvn -version". If recognized then you are good else install maven.
    
